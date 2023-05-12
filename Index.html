@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Kiruthika Personal PortFolio</title>   
+        <link rel="stylesheet" href="style.css"> 
+        <script src="https://kit.fontawesome.com/f108ed1bb9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/J.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">PortFolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Test Engineer</p>
+            <h1>Hi, I'm <span>Kiruthika</span> <br>From TamilNadu</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ---------about------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Phone.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>To secure a position as a Software Test Engineer where I can utilize my analytical skills and experience in testing software applications to ensure high-quality products and contribute to the success of the organization.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Test Automation Tool</span><br>Selenium with Java</li>
+                        <li><span>API Testing Tool</span><br>Postman,FireFlink</li>
+                        <li><span>Design Pattern</span><br>Page Object Model (POM)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020-2022</span><br>Catalog Specialist at Squad Cube Solutions</span></li>
+                        <li><span>2018-2018</span><br>Catalog Process Engineer at Hiya Tech Solutions</span></li>
+                        <li><span>2016-2018</span><br>Junior Processor at Code Mantra Pvt.Ltd</span></li>
+                    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-2023</span><br>Software Test Engineer Training at Qspiders</span></li>
+                        <li><span>2013-2016</span><br>Bsc from MKU TamilNadu</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------project------------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>HMS</h2>
+                <p>It is a web application and the main aim of this project is to automate various activities of the Hospital.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Prki Trafico</h2>
+                <p>It is a local host web application
+                    which help the company to manage
+                    their resources and their business
+                    partner to maintain their client
+                    account efficiently.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>PK</h2>
+                <p>It is a local host web application
+                    which help the company to manage
+                    their resources and their business
+                    partner to maintain their client
+                    account efficiently.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ----------portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work 1.jpg">
+                <div class="layer">
+                    <h3>Write a Test Case</h3>
+                    <p>A set of test inputs, execution conditions, and expected results developed for a particular objective, such as to exercise a particular program path or to verify compliance with a specific requirement.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work 2.jpg">
+                <div class="layer">
+                    <h3>Find the Bug</h3>
+                    <p>A set of test inputs, execution conditions, and expected results developed for a particular objective, such as to exercise a particular program path or to verify compliance with a specific requirement.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work 3.jpg">
+                <div class="layer">
+                    <h3>Write a Test Case</h3>
+                    <p>A set of test inputs, execution conditions, and expected results developed for a particular objective, such as to exercise a particular program path or to verify compliance with a specific requirement.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#" class="btn">See More</a>
+
+<!-- ------------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-envelope"></i> <u>kjkiruthika789@gmail.com</u></p>
+              <p><i class="fa-solid fa-phone"></i> 8220528754</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/kiruthika-k-j-013a53273"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="@kjkiruthika789"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <a href="images/Kiruthika KJ Software Test Engineer.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                     <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+   </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")  
+}
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby9ZdO96HSX5HF6hZ7p202rZk1Y4cBGJztJMX4fa0lIle3zqoL1jSQSv3t_cMmRfb9NcA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
